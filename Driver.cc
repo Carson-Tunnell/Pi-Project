@@ -51,7 +51,7 @@ int main(void)
     //Start smoke_sensor
     
     //opens output file as csv
-    ofstream output("outfile.csv");
+    ofstream output("/home/pi/Alarm/outfile.csv");
     //Get temp;
     output << "Temperature,";
     output << get_temp(sensor_t) << '\n';
