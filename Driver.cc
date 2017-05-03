@@ -60,6 +60,7 @@ int main(void)
     output << "Smoke,";
     //Check smoke sensor;
     if(sensor_s.detection()){
+	sensor_s.alert();
 	cout << "Smoke sensor is activated" << '\n';
         output << check_smoke_sensors(sensor_s);
 	output << "\n";
