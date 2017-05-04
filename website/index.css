@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+.jumbotron {
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+	background-image: url(./PF-random-wallpaper.jpg);
+	background-position: 0% 38%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    text-align: center;
+    font-size: large;
+	background-color: black;
+	color:white;
+}
+.page-header {
+	border-bottom: 0px;
+}
+
+footer
+{
+    float: bottom;
+    clear: both;
+    font-size: medium;
+	background-color: black;
+	color: white;
+}
